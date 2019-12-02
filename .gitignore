@@ -1,6 +1,6 @@
 
-# Created by https://www.gitignore.io/api/python,venv
-# Edit at https://www.gitignore.io/?templates=python,venv
+# Created by https://www.gitignore.io/api/python,venv,visualstudiocode
+# Edit at https://www.gitignore.io/?templates=python,venv,visualstudiocode
 
 ### Python ###
 # Byte-compiled / optimized / DLL files
@@ -126,4 +126,15 @@ env.bak/
 venv.bak/
 pip-selfcheck.json
 
-# End of https://www.gitignore.io/api/python,venv
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+
+# End of https://www.gitignore.io/api/python,venv,visualstudiocode
